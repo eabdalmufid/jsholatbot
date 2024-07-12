@@ -1,0 +1,37 @@
+{
+  "name": "jsholatbot",
+  "description": "Bot telegram buat ngecek jadwal sholat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "pm2": "pm2 start index.js --name sholat"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eabdalmufid/jsholatbot.git"
+  },
+  "keywords": [
+    "jadwal-sholat",
+    "telebot",
+    "telegram-bot",
+    "tele-bot",
+    "telegrambot"
+  ],
+  "author": "affidev",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/eabdalmufid/jsholatbot/issues"
+  },
+  "homepage": "https://github.com/eabdalmufid/jsholatbot#readme",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.5",
+    "moment-timezone": "^0.5.45",
+    "monk": "^7.3.4",
+    "telegraf": "^4.16.2"
+  }
+}
